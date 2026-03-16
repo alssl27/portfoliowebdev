@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header__inner home-header">
+            <nav class="site-nav home-nav" aria-label="Main navigation">
+                <a class="nav-pill" href="index.html">Home</a>
+                <a class="nav-pill" href="about.html">About Me</a>
+                <a class="nav-pill" href="tech-stack.html">Tech Stack</a>
+                <a class="nav-pill nav-pill--active" href="portfolio.html">Portfolio</a>
+                <a class="nav-pill" href="contact.html">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-shell">
+        <div class="page-wrap">
+            <section class="portfolio-banner" aria-label="Portfolio intro">
+                <img class="portfolio-banner__img" src="assets/portfolio-image.jpg" alt="Portfolio showcase">
+            </section>
+
+            <section class="section-block">
+                <h2>Projects</h2>
+
+                <div class="project-card-grid" aria-label="Project cards">
+
+                    <article class="project-card">
+                        <img class="project-card__img" src="assets/project-1.jpg" alt="Project One screenshot" loading="lazy">
+                        <div class="project-card__body">
+                            <h3>Project One</h3>
+                            <p>Landing page redesign focused on conversion and mobile experience.</p>
+                            <p class="project-meta">HTML · CSS · JavaScript</p>
+                            <div class="project-links">
+                                <a class="hero-btn" href="https://example.com/project-one" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a class="hero-btn" href="https://github.com/your-username/project-one" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img class="project-card__img" src="assets/project-2.jpg" alt="Project Two screenshot" loading="lazy">
+                        <div class="project-card__body">
+                            <h3>Project Two</h3>
+                            <p>Dashboard UI with reusable components and clean data views.</p>
+                            <p class="project-meta">React · Chart.js · API</p>
+                            <div class="project-links">
+                                <a class="hero-btn" href="https://example.com/project-two" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a class="hero-btn" href="https://github.com/your-username/project-two" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img class="project-card__img" src="assets/project-3.jpg" alt="Project Three screenshot" loading="lazy">
+                        <div class="project-card__body">
+                            <h3>Project Three</h3>
+                            <p>Portfolio template built with responsive sections and SEO basics.</p>
+                            <p class="project-meta">Next.js · SEO · Responsive UI</p>
+                            <div class="project-links">
+                                <a class="hero-btn" href="https://example.com/project-three" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a class="hero-btn" href="https://github.com/your-username/project-three" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img class="project-card__img" src="assets/project-4.jpg" alt="Project Four screenshot" loading="lazy">
+                        <div class="project-card__body">
+                            <h3>Project Four</h3>
+                            <p>E-commerce storefront with cart, filtering, and checkout flow.</p>
+                            <p class="project-meta">Vue.js · CSS · Node.js</p>
+                            <div class="project-links">
+                                <a class="hero-btn" href="https://example.com/project-four" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a class="hero-btn" href="https://github.com/your-username/project-four" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img class="project-card__img" src="assets/project-5.jpg" alt="Project Five screenshot" loading="lazy">
+                        <div class="project-card__body">
+                            <h3>Project Five</h3>
+                            <p>Blog platform with markdown support and tag-based filtering.</p>
+                            <p class="project-meta">Astro · Markdown · TypeScript</p>
+                            <div class="project-links">
+                                <a class="hero-btn" href="https://example.com/project-five" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a class="hero-btn" href="https://github.com/your-username/project-five" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img class="project-card__img" src="assets/project-6.jpg" alt="Project Six screenshot" loading="lazy">
+                        <div class="project-card__body">
+                            <h3>Project Six</h3>
+                            <p>Weather app with live API data, geolocation, and animated icons.</p>
+                            <p class="project-meta">JavaScript · REST API · CSS</p>
+                            <div class="project-links">
+                                <a class="hero-btn" href="https://example.com/project-six" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a class="hero-btn" href="https://github.com/your-username/project-six" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <aside class="social-sidebar" aria-label="Social links">
+        <a class="sidebar-icon-link" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span>
+        </a>
+        <a class="sidebar-icon-link" href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub</span>
+        </a>
+        <a class="sidebar-icon-link" href="https://discord.com/users/your-discord-id" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+            <i class="fa-brands fa-discord" aria-hidden="true"></i><span>Discord</span>
+        </a>
+        <a class="sidebar-icon-link" href="https://slack.com/your-workspace" target="_blank" rel="noopener noreferrer" aria-label="Slack">
+            <i class="fa-brands fa-slack" aria-hidden="true"></i><span>Slack</span>
+        </a>
+    </aside>
+</body>
+</html>
