@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Web Development Portfolio</title>
@@ -11,11 +13,11 @@
     <header class="site-header">
         <div class="site-header__inner home-header">
             <nav class="site-nav home-nav" aria-label="Main navigation">
-                <a class="nav-pill nav-pill--active" href="index.html">Home</a>
-                <a class="nav-pill" href="about.html">About Me</a>
-                <a class="nav-pill" href="tech-stack.html">Tech Stack</a>
-                <a class="nav-pill" href="portfolio.html">Portfolio</a>
-                <a class="nav-pill" href="contact.html">Contact Me</a>
+                <a class="nav-pill nav-pill--active" href="index.html"><span class="label-full">Home</span><span class="label-short">Home</span></a>
+                <a class="nav-pill" href="about.html"><span class="label-full">About Me</span><span class="label-short">About</span></a>
+                <a class="nav-pill" href="tech-stack.html"><span class="label-full">Tech Stack</span><span class="label-short">Stack</span></a>
+                <a class="nav-pill" href="portfolio.html"><span class="label-full">Portfolio</span><span class="label-short">Work</span></a>
+                <a class="nav-pill nav-pill--primary" href="contact.html"><span class="label-full">Contact Me</span><span class="label-short">Contact</span></a>
             </nav>
         </div>
     </header>
@@ -35,16 +37,16 @@
 
     <aside class="social-sidebar" aria-label="Social links">
         <a class="sidebar-icon-link" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <i class="fa-brands fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span>
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i><span class="social-label-full">LinkedIn</span><span class="social-label-short">LI</span>
         </a>
         <a class="sidebar-icon-link" href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub</span>
+            <i class="fa-brands fa-github" aria-hidden="true"></i><span class="social-label-full">GitHub</span><span class="social-label-short">GH</span>
         </a>
         <a class="sidebar-icon-link" href="https://discord.com/users/your-discord-id" target="_blank" rel="noopener noreferrer" aria-label="Discord">
-            <i class="fa-brands fa-discord" aria-hidden="true"></i><span>Discord</span>
+            <i class="fa-brands fa-discord" aria-hidden="true"></i><span class="social-label-full">Discord</span><span class="social-label-short">DC</span>
         </a>
         <a class="sidebar-icon-link" href="https://slack.com/your-workspace" target="_blank" rel="noopener noreferrer" aria-label="Slack">
-            <i class="fa-brands fa-slack" aria-hidden="true"></i><span>Slack</span>
+            <i class="fa-brands fa-slack" aria-hidden="true"></i><span class="social-label-full">Slack</span><span class="social-label-short">SL</span>
         </a>
     </aside>
 </body>
